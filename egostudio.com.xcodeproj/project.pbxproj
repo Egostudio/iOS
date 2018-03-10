@@ -1,0 +1,677 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		010003331FD938EA000A65AA /* NewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 010003321FD938EA000A65AA /* NewViewController.swift */; };
+		0144502A1F814D5D004A910E /* detailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 014450291F814D5D004A910E /* detailViewController.swift */; };
+		0152E58320211B8D006BA7B2 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0152E58220211B8D006BA7B2 /* MapViewController.swift */; };
+		0154E28B2017686200E5F2BB /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0154E28A2017686200E5F2BB /* File.swift */; };
+		01922B631FA4FC7E00E839D6 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01922B621FA4FC7E00E839D6 /* CoreLocation.framework */; };
+		01A15C831F86B7E700FFCF00 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 01A15C821F86B7E700FFCF00 /* Assets.xcassets */; };
+		01A348351FC1BBE300D9AD5D /* Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 01A348331FC1BBE300D9AD5D /* Model.xcdatamodeld */; };
+		01BA341C1F80C17C0074D3FB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01BA341B1F80C17C0074D3FB /* AppDelegate.swift */; };
+		01BA341E1F80C17C0074D3FB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01BA341D1F80C17C0074D3FB /* ViewController.swift */; };
+		01BA34211F80C17C0074D3FB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 01BA341F1F80C17C0074D3FB /* Main.storyboard */; };
+		01BA34261F80C17C0074D3FB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 01BA34241F80C17C0074D3FB /* LaunchScreen.storyboard */; };
+		01BA34311F80C17C0074D3FB /* egostudio_comTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01BA34301F80C17C0074D3FB /* egostudio_comTests.swift */; };
+		01BA343C1F80C17C0074D3FB /* egostudio_comUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01BA343B1F80C17C0074D3FB /* egostudio_comUITests.swift */; };
+		01BA344E1F8113F50074D3FB /* messageTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01BA344D1F8113F50074D3FB /* messageTableViewCell.swift */; };
+		6344810EDDC1B96B1B7BFA9A /* Pods_egostudio_com.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 69797F644ACE4D5224AF25F7 /* Pods_egostudio_com.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		01BA342D1F80C17C0074D3FB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 01BA34101F80C17C0074D3FB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 01BA34171F80C17C0074D3FB;
+			remoteInfo = egostudio.com;
+		};
+		01BA34381F80C17C0074D3FB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 01BA34101F80C17C0074D3FB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 01BA34171F80C17C0074D3FB;
+			remoteInfo = egostudio.com;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		010003321FD938EA000A65AA /* NewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewViewController.swift; sourceTree = "<group>"; };
+		014450291F814D5D004A910E /* detailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = detailViewController.swift; sourceTree = "<group>"; };
+		0152E58220211B8D006BA7B2 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		0154E28A2017686200E5F2BB /* File.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = File.swift; sourceTree = "<group>"; };
+		01922B621FA4FC7E00E839D6 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		01A15C821F86B7E700FFCF00 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		01A348341FC1BBE300D9AD5D /* Model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model.xcdatamodel; sourceTree = "<group>"; };
+		01BA34181F80C17C0074D3FB /* egostudio.com.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = egostudio.com.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		01BA341B1F80C17C0074D3FB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		01BA341D1F80C17C0074D3FB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		01BA34201F80C17C0074D3FB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		01BA34251F80C17C0074D3FB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		01BA34271F80C17C0074D3FB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		01BA342C1F80C17C0074D3FB /* egostudio.comTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = egostudio.comTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		01BA34301F80C17C0074D3FB /* egostudio_comTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = egostudio_comTests.swift; sourceTree = "<group>"; };
+		01BA34321F80C17C0074D3FB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		01BA34371F80C17C0074D3FB /* egostudio.comUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = egostudio.comUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		01BA343B1F80C17C0074D3FB /* egostudio_comUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = egostudio_comUITests.swift; sourceTree = "<group>"; };
+		01BA343D1F80C17C0074D3FB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		01BA344D1F8113F50074D3FB /* messageTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = messageTableViewCell.swift; sourceTree = "<group>"; };
+		1D8BF9EDEE39B3980B02F633 /* Pods-egostudio.com.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-egostudio.com.release.xcconfig"; path = "Pods/Target Support Files/Pods-egostudio.com/Pods-egostudio.com.release.xcconfig"; sourceTree = "<group>"; };
+		50593D4A7E70D73B35B10720 /* Pods_egostudio_comTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_egostudio_comTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		69797F644ACE4D5224AF25F7 /* Pods_egostudio_com.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_egostudio_com.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8ECFF39ED3602960DB6EEF22 /* Pods_egostudio_comUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_egostudio_comUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E94AC4166CDB1A5C653AF71A /* Pods-egostudio.com.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-egostudio.com.debug.xcconfig"; path = "Pods/Target Support Files/Pods-egostudio.com/Pods-egostudio.com.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		01BA34151F80C17C0074D3FB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01922B631FA4FC7E00E839D6 /* CoreLocation.framework in Frameworks */,
+				6344810EDDC1B96B1B7BFA9A /* Pods_egostudio_com.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		01BA34291F80C17C0074D3FB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		01BA34341F80C17C0074D3FB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		01922B581FA4B3AA00E839D6 /* lib */ = {
+			isa = PBXGroup;
+			children = (
+				0154E28A2017686200E5F2BB /* File.swift */,
+			);
+			name = lib;
+			sourceTree = "<group>";
+		};
+		01922B611FA4FC7D00E839D6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				01922B621FA4FC7E00E839D6 /* CoreLocation.framework */,
+				69797F644ACE4D5224AF25F7 /* Pods_egostudio_com.framework */,
+				50593D4A7E70D73B35B10720 /* Pods_egostudio_comTests.framework */,
+				8ECFF39ED3602960DB6EEF22 /* Pods_egostudio_comUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		01BA340F1F80C17B0074D3FB = {
+			isa = PBXGroup;
+			children = (
+				01BA341A1F80C17C0074D3FB /* egostudio.com */,
+				01BA342F1F80C17C0074D3FB /* egostudio.comTests */,
+				01BA343A1F80C17C0074D3FB /* egostudio.comUITests */,
+				01BA34191F80C17C0074D3FB /* Products */,
+				01922B611FA4FC7D00E839D6 /* Frameworks */,
+				EA33EE4E82719DBF20B4C9E6 /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		01BA34191F80C17C0074D3FB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				01BA34181F80C17C0074D3FB /* egostudio.com.app */,
+				01BA342C1F80C17C0074D3FB /* egostudio.comTests.xctest */,
+				01BA34371F80C17C0074D3FB /* egostudio.comUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		01BA341A1F80C17C0074D3FB /* egostudio.com */ = {
+			isa = PBXGroup;
+			children = (
+				01BA341B1F80C17C0074D3FB /* AppDelegate.swift */,
+				01BA341D1F80C17C0074D3FB /* ViewController.swift */,
+				01BA341F1F80C17C0074D3FB /* Main.storyboard */,
+				0152E58220211B8D006BA7B2 /* MapViewController.swift */,
+				010003321FD938EA000A65AA /* NewViewController.swift */,
+				014450291F814D5D004A910E /* detailViewController.swift */,
+				01A15C821F86B7E700FFCF00 /* Assets.xcassets */,
+				01BA344D1F8113F50074D3FB /* messageTableViewCell.swift */,
+				01922B581FA4B3AA00E839D6 /* lib */,
+				01BA34241F80C17C0074D3FB /* LaunchScreen.storyboard */,
+				01BA34271F80C17C0074D3FB /* Info.plist */,
+				01A348331FC1BBE300D9AD5D /* Model.xcdatamodeld */,
+			);
+			path = egostudio.com;
+			sourceTree = "<group>";
+		};
+		01BA342F1F80C17C0074D3FB /* egostudio.comTests */ = {
+			isa = PBXGroup;
+			children = (
+				01BA34301F80C17C0074D3FB /* egostudio_comTests.swift */,
+				01BA34321F80C17C0074D3FB /* Info.plist */,
+			);
+			path = egostudio.comTests;
+			sourceTree = "<group>";
+		};
+		01BA343A1F80C17C0074D3FB /* egostudio.comUITests */ = {
+			isa = PBXGroup;
+			children = (
+				01BA343B1F80C17C0074D3FB /* egostudio_comUITests.swift */,
+				01BA343D1F80C17C0074D3FB /* Info.plist */,
+			);
+			path = egostudio.comUITests;
+			sourceTree = "<group>";
+		};
+		EA33EE4E82719DBF20B4C9E6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E94AC4166CDB1A5C653AF71A /* Pods-egostudio.com.debug.xcconfig */,
+				1D8BF9EDEE39B3980B02F633 /* Pods-egostudio.com.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		01BA34171F80C17C0074D3FB /* egostudio.com */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 01BA34401F80C17C0074D3FB /* Build configuration list for PBXNativeTarget "egostudio.com" */;
+			buildPhases = (
+				4F4AB85F9F410088A1F6A8CB /* [CP] Check Pods Manifest.lock */,
+				01BA34141F80C17C0074D3FB /* Sources */,
+				01BA34151F80C17C0074D3FB /* Frameworks */,
+				01BA34161F80C17C0074D3FB /* Resources */,
+				D78A3EEDA3C47DDA0FF7AEE1 /* [CP] Embed Pods Frameworks */,
+				BD391A09A3A04216CC651BD0 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = egostudio.com;
+			productName = egostudio.com;
+			productReference = 01BA34181F80C17C0074D3FB /* egostudio.com.app */;
+			productType = "com.apple.product-type.application";
+		};
+		01BA342B1F80C17C0074D3FB /* egostudio.comTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 01BA34431F80C17C0074D3FB /* Build configuration list for PBXNativeTarget "egostudio.comTests" */;
+			buildPhases = (
+				01BA34281F80C17C0074D3FB /* Sources */,
+				01BA34291F80C17C0074D3FB /* Frameworks */,
+				01BA342A1F80C17C0074D3FB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				01BA342E1F80C17C0074D3FB /* PBXTargetDependency */,
+			);
+			name = egostudio.comTests;
+			productName = egostudio.comTests;
+			productReference = 01BA342C1F80C17C0074D3FB /* egostudio.comTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		01BA34361F80C17C0074D3FB /* egostudio.comUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 01BA34461F80C17C0074D3FB /* Build configuration list for PBXNativeTarget "egostudio.comUITests" */;
+			buildPhases = (
+				01BA34331F80C17C0074D3FB /* Sources */,
+				01BA34341F80C17C0074D3FB /* Frameworks */,
+				01BA34351F80C17C0074D3FB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				01BA34391F80C17C0074D3FB /* PBXTargetDependency */,
+			);
+			name = egostudio.comUITests;
+			productName = egostudio.comUITests;
+			productReference = 01BA34371F80C17C0074D3FB /* egostudio.comUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		01BA34101F80C17C0074D3FB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = Egostudio;
+				TargetAttributes = {
+					01BA34171F80C17C0074D3FB = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 75Q24MF9LH;
+						ProvisioningStyle = Automatic;
+					};
+					01BA342B1F80C17C0074D3FB = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 01BA34171F80C17C0074D3FB;
+					};
+					01BA34361F80C17C0074D3FB = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 01BA34171F80C17C0074D3FB;
+					};
+				};
+			};
+			buildConfigurationList = 01BA34131F80C17C0074D3FB /* Build configuration list for PBXProject "egostudio.com" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 01BA340F1F80C17B0074D3FB;
+			productRefGroup = 01BA34191F80C17C0074D3FB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				01BA34171F80C17C0074D3FB /* egostudio.com */,
+				01BA342B1F80C17C0074D3FB /* egostudio.comTests */,
+				01BA34361F80C17C0074D3FB /* egostudio.comUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		01BA34161F80C17C0074D3FB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01BA34261F80C17C0074D3FB /* LaunchScreen.storyboard in Resources */,
+				01A15C831F86B7E700FFCF00 /* Assets.xcassets in Resources */,
+				01BA34211F80C17C0074D3FB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		01BA342A1F80C17C0074D3FB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		01BA34351F80C17C0074D3FB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4F4AB85F9F410088A1F6A8CB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		BD391A09A3A04216CC651BD0 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-egostudio.com/Pods-egostudio.com-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D78A3EEDA3C47DDA0FF7AEE1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-egostudio.com/Pods-egostudio.com-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		01BA34141F80C17C0074D3FB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01BA344E1F8113F50074D3FB /* messageTableViewCell.swift in Sources */,
+				01BA341E1F80C17C0074D3FB /* ViewController.swift in Sources */,
+				0154E28B2017686200E5F2BB /* File.swift in Sources */,
+				010003331FD938EA000A65AA /* NewViewController.swift in Sources */,
+				01BA341C1F80C17C0074D3FB /* AppDelegate.swift in Sources */,
+				0144502A1F814D5D004A910E /* detailViewController.swift in Sources */,
+				01A348351FC1BBE300D9AD5D /* Model.xcdatamodeld in Sources */,
+				0152E58320211B8D006BA7B2 /* MapViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		01BA34281F80C17C0074D3FB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01BA34311F80C17C0074D3FB /* egostudio_comTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		01BA34331F80C17C0074D3FB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01BA343C1F80C17C0074D3FB /* egostudio_comUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		01BA342E1F80C17C0074D3FB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 01BA34171F80C17C0074D3FB /* egostudio.com */;
+			targetProxy = 01BA342D1F80C17C0074D3FB /* PBXContainerItemProxy */;
+		};
+		01BA34391F80C17C0074D3FB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 01BA34171F80C17C0074D3FB /* egostudio.com */;
+			targetProxy = 01BA34381F80C17C0074D3FB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		01BA341F1F80C17C0074D3FB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				01BA34201F80C17C0074D3FB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		01BA34241F80C17C0074D3FB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				01BA34251F80C17C0074D3FB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		01BA343E1F80C17C0074D3FB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		01BA343F1F80C17C0074D3FB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		01BA34411F80C17C0074D3FB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E94AC4166CDB1A5C653AF71A /* Pods-egostudio.com.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = 75Q24MF9LH;
+				INFOPLIST_FILE = egostudio.com/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.egostudio.project;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		01BA34421F80C17C0074D3FB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1D8BF9EDEE39B3980B02F633 /* Pods-egostudio.com.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = 75Q24MF9LH;
+				INFOPLIST_FILE = egostudio.com/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.egostudio.project;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		01BA34441F80C17C0074D3FB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = egostudio.comTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.egostudio-comTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/egostudio.com.app/egostudio.com";
+			};
+			name = Debug;
+		};
+		01BA34451F80C17C0074D3FB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = egostudio.comTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.egostudio-comTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/egostudio.com.app/egostudio.com";
+			};
+			name = Release;
+		};
+		01BA34471F80C17C0074D3FB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = egostudio.comUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.egostudio-comUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = egostudio.com;
+			};
+			name = Debug;
+		};
+		01BA34481F80C17C0074D3FB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = egostudio.comUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.egostudio-comUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = egostudio.com;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		01BA34131F80C17C0074D3FB /* Build configuration list for PBXProject "egostudio.com" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				01BA343E1F80C17C0074D3FB /* Debug */,
+				01BA343F1F80C17C0074D3FB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		01BA34401F80C17C0074D3FB /* Build configuration list for PBXNativeTarget "egostudio.com" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				01BA34411F80C17C0074D3FB /* Debug */,
+				01BA34421F80C17C0074D3FB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		01BA34431F80C17C0074D3FB /* Build configuration list for PBXNativeTarget "egostudio.comTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				01BA34441F80C17C0074D3FB /* Debug */,
+				01BA34451F80C17C0074D3FB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		01BA34461F80C17C0074D3FB /* Build configuration list for PBXNativeTarget "egostudio.comUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				01BA34471F80C17C0074D3FB /* Debug */,
+				01BA34481F80C17C0074D3FB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		01A348331FC1BBE300D9AD5D /* Model.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				01A348341FC1BBE300D9AD5D /* Model.xcdatamodel */,
+			);
+			currentVersion = 01A348341FC1BBE300D9AD5D /* Model.xcdatamodel */;
+			name = Model.xcdatamodeld;
+			path = ../Model.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 01BA34101F80C17C0074D3FB /* Project object */;
+}
